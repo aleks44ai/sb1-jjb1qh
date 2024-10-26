@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #0A0A0A;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.connect-button {
+  background: linear-gradient(90deg, #FF6B00 0%, #FF9900 100%);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 600;
+}
+
+.swap-input {
+  @apply bg-[#1A1A1A] rounded-xl p-4 border border-gray-800;
+}
